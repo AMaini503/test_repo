@@ -5,8 +5,8 @@ python:
   - 3.5
 
 #upgrade pip and install the dependencies
-#install:
-#  - pip -U pip
+install:
+  - pip install --upgrade pip
 
 #running tests  
 script:
