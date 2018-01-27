@@ -10,6 +10,6 @@ python:
 
 #running tests  
 script:
-  - python hello.py
+  - py.test
 
 
