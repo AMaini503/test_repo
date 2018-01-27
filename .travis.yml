@@ -5,11 +5,11 @@ python:
   - 3.5
 
 #upgrade pip and install the dependencies
-install:
-  - pip -U pip
+#install:
+#  - pip -U pip
 
 #running tests  
 script:
-  - py.test
+  - python hello.py
 
 
