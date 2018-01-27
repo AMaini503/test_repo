@@ -7,9 +7,12 @@ python:
 #upgrade pip and install the dependencies
 install:
   - pip install --upgrade pip
+  - pip install -r requirements.txt
 
 #running tests  
 script:
-  - py.test
+  - pytest test_integers.py
+  - pytest test_nparrays.py
+  - pytest -q test_string.py --file input.txt
 
 
